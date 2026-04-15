@@ -13,6 +13,8 @@
 #  limitations under the License.
 ################################################################################
 
+x-host-name: &host-name ${HOST_NAME}
+x-http-proxy: &http-proxy ${HTTP_PROXY}
 x-https-proxy: &https-proxy ${HTTPS_PROXY}
 x-no-proxy: &no-proxy
   ${HOST_NAME}
